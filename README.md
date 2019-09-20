@@ -3,7 +3,7 @@ Implemetation of PencilKit using protocol oriented programming
 
 
 # Resources
-This repository contains an Xcode example project for the blog post at [Pencil Kit Example](https://medium.com/p/af4e8f285476/edit).
+This repository contains an Xcode example project for the blog post at [PencilKit. Protocol Oriented Programming. Swift.](https://medium.com/p/af4e8f285476/edit).
 
 ![Xcode 11.0+](https://img.shields.io/badge/Xcode-11.0%2B-blue.svg)
 ![iOS 13.0+](https://img.shields.io/badge/iOS-13.0%2B-blue.svg)
