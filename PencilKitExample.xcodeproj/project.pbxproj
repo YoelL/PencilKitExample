@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		B15FC4A523349F82008D7031 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15FC4A423349F82008D7031 /* AppDelegate.swift */; };
 		B15FC4A723349F82008D7031 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15FC4A623349F82008D7031 /* SceneDelegate.swift */; };
-		B15FC4A923349F82008D7031 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15FC4A823349F82008D7031 /* ViewController.swift */; };
+		B15FC4A923349F82008D7031 /* PencilKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15FC4A823349F82008D7031 /* PencilKitViewController.swift */; };
 		B15FC4AC23349F82008D7031 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B15FC4AA23349F82008D7031 /* Main.storyboard */; };
 		B15FC4AE23349F83008D7031 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B15FC4AD23349F83008D7031 /* Assets.xcassets */; };
 		B15FC4B123349F83008D7031 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B15FC4AF23349F83008D7031 /* LaunchScreen.storyboard */; };
 		B15FC4BC23349F83008D7031 /* PencilKitExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15FC4BB23349F83008D7031 /* PencilKitExampleTests.swift */; };
 		B15FC4C723349F84008D7031 /* PencilKitExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15FC4C623349F84008D7031 /* PencilKitExampleUITests.swift */; };
+		B15FC4D52334A159008D7031 /* PencilKitInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15FC4D42334A159008D7031 /* PencilKitInterface.swift */; };
+		B15FC4D72334A17F008D7031 /* PKCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15FC4D62334A17F008D7031 /* PKCanvas.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +40,7 @@
 		B15FC4A123349F82008D7031 /* PencilKitExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PencilKitExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B15FC4A423349F82008D7031 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B15FC4A623349F82008D7031 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B15FC4A823349F82008D7031 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B15FC4A823349F82008D7031 /* PencilKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PencilKitViewController.swift; sourceTree = "<group>"; };
 		B15FC4AB23349F82008D7031 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B15FC4AD23349F83008D7031 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B15FC4B023349F83008D7031 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +51,8 @@
 		B15FC4C223349F84008D7031 /* PencilKitExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PencilKitExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B15FC4C623349F84008D7031 /* PencilKitExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PencilKitExampleUITests.swift; sourceTree = "<group>"; };
 		B15FC4C823349F84008D7031 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B15FC4D42334A159008D7031 /* PencilKitInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PencilKitInterface.swift; sourceTree = "<group>"; };
+		B15FC4D62334A17F008D7031 /* PKCanvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PKCanvas.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +105,13 @@
 			children = (
 				B15FC4A423349F82008D7031 /* AppDelegate.swift */,
 				B15FC4A623349F82008D7031 /* SceneDelegate.swift */,
-				B15FC4A823349F82008D7031 /* ViewController.swift */,
+				B15FC4A823349F82008D7031 /* PencilKitViewController.swift */,
 				B15FC4AA23349F82008D7031 /* Main.storyboard */,
 				B15FC4AD23349F83008D7031 /* Assets.xcassets */,
 				B15FC4AF23349F83008D7031 /* LaunchScreen.storyboard */,
 				B15FC4B223349F83008D7031 /* Info.plist */,
+				B15FC4D42334A159008D7031 /* PencilKitInterface.swift */,
+				B15FC4D62334A17F008D7031 /* PKCanvas.swift */,
 			);
 			path = PencilKitExample;
 			sourceTree = "<group>";
@@ -259,9 +265,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B15FC4A923349F82008D7031 /* ViewController.swift in Sources */,
+				B15FC4A923349F82008D7031 /* PencilKitViewController.swift in Sources */,
 				B15FC4A523349F82008D7031 /* AppDelegate.swift in Sources */,
 				B15FC4A723349F82008D7031 /* SceneDelegate.swift in Sources */,
+				B15FC4D72334A17F008D7031 /* PKCanvas.swift in Sources */,
+				B15FC4D52334A159008D7031 /* PencilKitInterface.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
