@@ -1,4 +1,4 @@
-# PencilKitExample
+# Pencil Kit Example
 Implemetation of PencilKit using protocol oriented programming  
 
 
