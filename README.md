@@ -12,4 +12,4 @@ This repository contains an Xcode example project for the blog post at [PencilKi
 
 
 
-(https://demo-profiles.s3.eu-west-2.amazonaws.com/profile4.png)
+![Xcode 11.0+](https://demo-profiles.s3.eu-west-2.amazonaws.com/profile4.png)
