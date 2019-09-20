@@ -12,4 +12,4 @@ This repository contains an Xcode example project for the blog post at [PencilKi
 
 
 
-![Xcode 11.0+](https://pencilkit.s3-us-west-2.amazonaws.com/ezgif.com-video-to-gif-4.gif)
+![](https://pencilkit.s3-us-west-2.amazonaws.com/ezgif.com-video-to-gif-4.gif)
